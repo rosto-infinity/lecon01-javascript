@@ -42,7 +42,10 @@ let nbre03 = parseInt(prompt("Entrez le deuxième nombre"));
 let som1 =nbre02 / nbre03;
 
 // alert("La somme est de " + som1);
-alert(`La somme  ${nbre02} / ${nbre03} = ${som1}`);
+alert(`La somme 
+   ${nbre02} 
+   / ${nbre03} 
+   = ${som1}`);
 
 
 console.log(som1);
@@ -52,6 +55,26 @@ prompt("Bonjour prompt");
 document.write("Bonjour document");
 
 
+//somme  de 5 nombres entier
+som = 0;
+// i = 0 
+som = som + 0;
+// i = 1
+ som = som + 1;
+// i = 2 
+som = som + 2;
+// i = 3 
+som = som + 3;
+// i = 4 
+som = som + 4;
+// 0,1,2,3,4 = 4 - 0 +1 = 5
+console.log(som);
+ som =0
+for (let i = 0; i <= 4; i++) {
+  // som = som + i;
+  som += i;
+  console.log(` ${som} `);
+}
 
 
 
