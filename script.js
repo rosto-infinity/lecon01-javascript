@@ -37,22 +37,19 @@ console.log(som);
 
 
 
-let nbre02 =parseInt( prompt("Entrez le premier nombre"));
-let nbre03 = parseInt(prompt("Entrez le deuxième nombre"));
-let som1 =nbre02 / nbre03;
+// let nbre02 =parseInt( prompt("Entrez le premier nombre"));
+// let nbre03 = parseInt(prompt("Entrez le deuxième nombre"));
+// let som1 =nbre02 / nbre03;
 
 // alert("La somme est de " + som1);
-alert(`La somme 
-   ${nbre02} 
-   / ${nbre03} 
-   = ${som1}`);
+// alert(`La somme ${nbre02}  / ${nbre03}  = ${som1}`);
 
 
-console.log(som1);
+// console.log(som1);
 
- alert("Bonjour alert");
-prompt("Bonjour prompt");
-document.write("Bonjour document");
+//  alert("Bonjour alert");
+// prompt("Bonjour prompt");
+// document.write("Bonjour document");
 
 
 //somme  de 5 nombres entier
@@ -77,5 +74,19 @@ for (let i = 0; i <= 4; i++) {
 }
 
 
+const nombre =7;
+for (let i = 0; i <= 12 ; i++) {
+  const result = nombre*i;
+  console.log(`${nombre} x ${i} = ${result}\n `);
+  
+}
 
+
+let som3 =0
+let i = 0;
+while (i<= 4) {
+  som3 += i;
+  console.log(` ${som3} `);
+  i++;
+}
 
